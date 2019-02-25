@@ -1,3 +1,5 @@
+From the `mystery` directory:
+
 # 1) Get all real clues from the crimescene file:
 `grep "^CLUE:" crimescene`
 
@@ -90,3 +92,6 @@
 `echo "Jeremy Bowers" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin ../encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.`
 
     CORRECT! GREAT WORK, GUMSHOE.
+
+
+**- Ikey Benz**
